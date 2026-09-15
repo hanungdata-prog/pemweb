@@ -4,65 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BELAJAR HTML</title>
+
     <style>
         :root {
             background-color: #FFF8F0;
         }
-    
+
         body {
             margin: 0;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
-    
-        .teks-nav{
+
+        .teks-nav {
             display: block;
             text-align: right;
             margin-right: 20px;
         }
-    
+
         a {
             color: #4B2E2B;
             text-decoration: none;
         }
-    
-        a:hover{
+
+        a:hover {
             cursor: pointer;
-            color:#C08552;
+            color: #C08552;
         }
-    
-        footer{
-            background-color: #4B2E2B;
-            padding: 1px;
-            margin-top: auto;
-            color:#FFF8F0;
-            text-align: center;
-        }
-    
-        .layout{
+
+        .layout {
             display: flex;
+            flex: 1;
         }
+
         .profil {
             width: 200px;
             background-color: #8C5A3C;
             padding: 20px;
-            min-height: 100vh;
         }
-    
+
         .profil ul {
-            padding: 0px;
+            padding: 0;
         }
-    
+
         .profil li {
             list-style: none;
             color: #FFF8F0;
         }
-    
-        .nim {
-            text-align: center;
-        }
-    
+
         .profil img {
             display: block;
             width: 100px;
@@ -72,79 +62,106 @@
             object-fit: cover;
             margin: 0 auto;
         }
-    
+
+        .nim {
+            text-align: center;
+        }
+
         .kanan {
             flex: 1;
         }
-        
-        h3 {
+
+        h1 {
             margin-left: 10px;
         }
+
         table {
             border-collapse: collapse;
             margin-left: 10px;
         }
-    
-        table, th, td {
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
-    
+
         td {
             padding: 5px 10px;
         }
+
+        footer {
+            background-color: #4B2E2B;
+            padding: 1px;
+            color: #FFF8F0;
+            text-align: center;
+        }
     </style>
 </head>
+
 <body>
-    
+
     <div class="layout">
-        
+
         <div class="profil">
             <ul>
-                <img src="avatar.png" alt="">
+                <li>
+                    <img src="avatar.png" alt="Foto profil Hanung">
+                </li>
                 <li>Hanung Akbar Pramusintho</li>
                 <li class="nim">124140207</li>
             </ul>
         </div>
+
         <div class="kanan">
+
             <nav>
                 <ul>
-                    <li class="teks-nav"><a href="artikel.html">Berita</a></li>
+                    <li class="teks-nav">
+                        <a href="artikel.html">Berita</a>
+                    </li>
                 </ul>
             </nav>
+
             <main>
-                <h3>Detail Mahasiswa</h3>
+                <h1>Detail Mahasiswa</h1>
 
                 <table>
                     <tr>
                         <td>Tempat Lahir</td>
                         <td>Sleman</td>
                     </tr>
+
                     <tr>
                         <td>Jenis Kelamin</td>
                         <td>Laki-laki</td>
                     </tr>
+
                     <tr>
                         <td>Agama</td>
                         <td>Islam</td>
                     </tr>
+
                     <tr>
                         <td>Tanggal Lahir</td>
                         <td>2006-01-07</td>
                     </tr>
+
                     <tr>
                         <td>Nama Ibu</td>
                         <td>Erwin Andriana Astuti</td>
                     </tr>
                 </table>
             </main>
+
         </div>
 
-        
     </div>
 
-        <footer>
-            <p>Powered by Hanung Akbar Pramusintho</p>
-            <p>Copyright © 2026</p>
+    <footer>
+        <p>Powered by Hanung Akbar Pramusintho</p>
+        <p>Copyright © 2026</p>
     </footer>
+
 </body>
 </html>
