@@ -4,80 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artikel Berita</title>
+    <style>
+        :root {
+            background-color: #FFF8F0;
+        }
+    
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+    
+        .teks-nav{
+            display: block;
+            text-align: right;
+            margin-right: 20px;
+        }
+        
+        a {
+            color: #4B2E2B;
+            text-decoration: none;
+        }
+        
+        a:hover{
+            cursor: pointer;
+            color:#C08552;
+        }
+    
+        .content{
+            display: flex;
+            gap: 20px;
+        }
+        section{
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            border: 1px solid #4B2E2B;
+            padding: 0 20px 20px 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            height: 300px;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        h3{
+            text-align: center;
+        }
+    
+        aside p:hover{
+            color:#C08552;
+            cursor: pointer;
+        }
+    
+        section p{
+            line-height: 1.2;
+            text-align: justify;
+            margin: 20px;
+        }
+        footer{
+            background-color: #4B2E2B;
+            padding: 1px;
+            margin-top: auto;
+            color:#FFF8F0;
+            text-align: center;
+        }
+    </style>
 </head>
-<style>
-    :root {
-        background-color: #FFF8F0;
-    }
-
-    body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-    
-
-    .teks-nav{
-        display: block;
-        text-align: right;
-        margin-right: 20px;
-    }
-    
-    a {
-        color: #4B2E2B;
-        text-decoration: none;
-    }
-    
-    a:hover{
-        cursor: pointer;
-        color:#C08552;
-    }
-
-    .content{
-        display: flex;
-        gap: 20px;
-    }
-    section{
-        flex: 3;
-    }
-    aside {
-        flex: 1;
-        border: 1px solid #4B2E2B;
-        padding: 0 20px 20px 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        border-radius: 10px;
-        height: 300px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    h3{
-        text-align: center;
-    }
-
-    aside p:hover{
-        color:#C08552;
-        cursor: pointer;
-    }
-
-    section p{
-        line-height: 1.2;
-        text-align: justify;
-        margin: 20px;
-    }
-    footer{
-        background-color: #4B2E2B;
-        padding: 1px;
-        margin-top: auto;
-        color:#FFF8F0;
-        text-align: center;
-    }
-</style>
 
 <body>
     <nav>
